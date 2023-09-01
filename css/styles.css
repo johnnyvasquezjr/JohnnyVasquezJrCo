@@ -836,7 +836,7 @@ aside:before {
 }
 
 .btn.btn-default, .btn.btn-color {
-  background: #000;
+  background: var(--secondaryColor);
   color: #fff;
   text-transform: uppercase;
   font-weight: 400;
@@ -847,7 +847,7 @@ aside:before {
 }
 
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active, .btn.btn-color:hover, .btn.btn-color:focus, .btn.btn-color:active {
-  background: #2C55D5;
+  background: var(--mainColor);
   color: #fff;
 }
 

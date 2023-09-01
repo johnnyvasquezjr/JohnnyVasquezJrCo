@@ -26,6 +26,8 @@
 
   ------------------------------*/
 /*
+
+
   01. Bootstrap
 */
 /*!
@@ -37,6 +39,15 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
 @import url(https://fonts.googleapis.com/css?family=Heebo:400,300,500);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+:root {
+  --mainColor: #242424;
+  --secondaryColor: #383838;
+  --backgroundColor: #f3f4f4;
+
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -3658,7 +3669,7 @@ select[multiple].input-lg,
 }
 
 .btn:hover, .btn:focus, .btn.focus {
-  color: #333;
+  color: var(--secondaryColor);
   text-decoration: none;
 }
 
@@ -3682,7 +3693,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default {
-  color: #333;
+  color: var(--secondaryColor);
   background-color: #fff;
   border-color: #ccc;
 }
@@ -3694,7 +3705,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default:hover {
-  color: #333;
+  color: orange;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
