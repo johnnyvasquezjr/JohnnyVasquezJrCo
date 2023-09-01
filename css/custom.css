@@ -17,3 +17,24 @@
     - Themanoid
 
 ----------------------------*/
+:root {
+    --mainColor: #242424;
+    --secondaryColor: #383838;
+    --backgroundColor: #f3f4f4;
+  
+  }
+
+h4 {
+    color: var(--mainColor);
+}
+
+.vert {
+    width: 100%;
+    padding: 5%;
+}
+
+.horiz {
+    width: 100%;
+    margin-top: 32%;
+    margin-bottom: 32.5%;
+}
