@@ -65,7 +65,7 @@
           <div class="row mt-xl">
           </div>
           <div class="row mt-lg">
-            <d class="col-md-12 text-center"><img src="../images/team/01.jpg" class="fadein mb-sm">
+            <d class="col-md-12 text-center"><img src="images/team/01.jpg" class="fadein mb-sm">
               <p>Nullam vitae elementum nunc. Mauris auctor ultrices justo, et fringilla ex pharetra non. Aliquam id eleifend turpis, at eleifend tortor. Duis ultricies vehicula pellentesque. Donec facilisis ac ante sit amet fermentum. Praesent ut sagittis dui. Quisque placerat magna a leo dignissim tempor.</p>
           </div>
         </div>
@@ -101,9 +101,16 @@
               <h2 class="text-center">
                 Lets work together
               </h2>
-              <form id="form" action="/php/mail.php" class="form row mt-lg">
+              <form id="form" action="https://formsubmit.co/johnny@johnnyvasquezjr.co" method="POST" class="form row mt-lg">
                 <div class="col-md-6">
                   <div class="tag">What's your name? *</div>
+                  <input type="hidden" name="_captcha" value="false"/>
+                        <input
+                          type="hidden"
+                          name="_next"
+                          value="https://johnnyvasquezjr.co/thank-you"/>
+                  <input required type="text" name="name" class="form-control">
+                </div>
                   <input required type="text" name="name" class="form-control">
                 </div>
                 <div class="col-md-6">
