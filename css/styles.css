@@ -255,7 +255,7 @@ ul.navigation li:hover ul.dropdown {
     opacity: 0;
   }
   ul.navigation.tapped {
-    background: #000;
+    background: var(--mainColor);
     padding: 30px;
     margin-top: 50px;
   }
@@ -301,7 +301,7 @@ ul.navigation li:hover ul.dropdown {
   }
   .nav-trigger .bar {
     height: 1px;
-    background: #000;
+    background: var(--mainColor);
     width: 45px;
     margin: 8px 0;
     -webkit-transition: all .3s;
@@ -871,11 +871,11 @@ footer {
 }
 
 footer.bottom {
-  background: #f5f5f5;
-  padding-top: 100px;
+  background: var(--mainColor);
+  padding-top: 50px;
   margin-top: 0;
   font-weight: 300;
-  color: #999;
+  color: #fff;
 }
 
 footer.bottom a {
