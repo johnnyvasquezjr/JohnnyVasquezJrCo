@@ -27,6 +27,15 @@
   14. Pagination
 
 -----------------------*/
+
+
+:root {
+  --mainColor: #242424;
+  --secondaryColor: #383838;
+  --backgroundColor: #f3f4f4;
+
+}
+
 /*
   01. Header
 */
@@ -140,7 +149,7 @@ ul.navigation li a {
   display: block;
   padding: 15px 0;
   margin: 0 13px;
-  color: #000;
+  color: var(--secondaryColor);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
   -webkit-transition: all .3s;
@@ -148,7 +157,7 @@ ul.navigation li a {
 }
 
 ul.navigation li a:hover, ul.navigation li a.active {
-  color: #2C55D5;
+  color: var(--mainColor);
   text-decoration: none;
 }
 
@@ -892,7 +901,7 @@ footer.bottom a {
 }
 
 .social-links li a {
-  color: #000;
+  color: var(--secondaryColor);
   margin: 10px 15px;
   text-decoration: none;
   -webkit-transition: color .3s;
@@ -900,7 +909,7 @@ footer.bottom a {
 }
 
 .social-links li a:hover {
-  color: #2C55D5;
+  color: var(--mainColor);
 }
 
 /*
@@ -927,7 +936,7 @@ footer.bottom a {
 }
 
 .form .form-control:focus {
-  background: #000;
+  background: var(--secondaryColor);
   color: #fff;
 }
 
